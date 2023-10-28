@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_off
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Whiteboard
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: 4D B2 00 00
